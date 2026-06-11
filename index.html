@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hand Gallery — WPT Global</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="hg-page">
+
+  <div class="hg-topbar">
+    <div class="hg-topbar-inner">
+      <img src="assets/quintace-logo.svg" alt="QuintAce" class="hg-topbar-logo">
+    </div>
+  </div>
+
+  <header class="hg-hero">
+    <div class="hg-hero-gradient"></div>
+    <div class="hg-hero-circle c1"></div>
+    <div class="hg-hero-circle c2"></div>
+    <div class="hg-hero-circle c3"></div>
+    <div class="hg-hero-spades left"></div>
+    <div class="hg-hero-spades mid"></div>
+    <div class="hg-hero-dots tl"></div>
+    <div class="hg-hero-dots br"></div>
+    <img class="hg-hero-player" src="assets/hero-player.png" alt="WPT Global ambassadors">
+
+    <div class="hg-hero-center">
+      <div class="hg-hero-lockup">
+        <img class="hg-hero-wpt" src="assets/wptglobal.svg" alt="WPT Global">
+        <svg class="hg-hero-slash" viewBox="0 0 13 52" fill="none" aria-hidden="true">
+          <path d="M 0 52 L 11.938 -0.266 L 13 0 L 1.062 52.266 Z" fill="currentColor" transform="translate(0,-0.1)"></path>
+          <path d="M 11.938 -0.266 L 13 0 L 1.062 52.266 L 0 52 Z" fill="currentColor"></path>
+        </svg>
+        <h1 class="hg-hero-title">HAND Gallery</h1>
+      </div>
+      <p class="hg-hero-sub">Curated hands from WPT Global, replayed with decision analysis.</p>
+    </div>
+  </header>
+
+  <main class="hg-content">
+
+    <section class="hg-intro">
+      <div class="hg-intro-shape s1"></div>
+      <div class="hg-intro-shape s2"></div>
+      <img class="hg-intro-phone" src="assets/phone.png" alt="The Replayer on mobile">
+      <div class="hg-intro-copy">
+        <h2 class="hg-intro-title">What Is The Replayer?</h2>
+        <p class="hg-intro-body">
+          A shareable replayer for any poker hand. Walk through the action street by street,
+          with solver-grounded analysis on every decision.
+        </p>
+      </div>
+    </section>
+
+    <section class="hg-section">
+      <div class="hg-section-head">
+        <h2 class="hg-section-title">Featured Hands</h2>
+        <div class="hg-arrows">
+          <button type="button" class="hg-arrow" aria-label="Scroll back" data-dir="-1">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="transform:rotate(180deg)"><path d="M3 8 H13 M8.5 3.5 L13 8 L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button type="button" class="hg-arrow" aria-label="Scroll forward" data-dir="1">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8 H13 M8.5 3.5 L13 8 L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="hg-featured-row" id="featuredRow"></div>
+    </section>
+
+    <section class="hg-section">
+      <div class="hg-section-head">
+        <h2 class="hg-section-title">All Hands</h2>
+      </div>
+      <div class="hg-grid" id="allGrid"></div>
+    </section>
+
+    <div class="hg-loadmore-wrap" id="loadMoreWrap">
+      <button type="button" class="hg-loadmore" id="loadMore">
+        Load More
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="transform:rotate(90deg)"><path d="M3 8 H13 M8.5 3.5 L13 8 L8.5 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
