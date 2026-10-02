@@ -30,6 +30,8 @@ struct RouteAssembler: Sendable {
         var isSteps = false
         var isUnderpass = false
         var isCrossingEdge = false
+        /// Covered way (arcade, tunnel, indoor): always shaded.
+        var isCovered = false
         /// `1 − shade` of the (parent) edge; access legs: 1.
         var sunny = 1.0
         /// Base edge id and traversal direction (for the route id); −1 for access legs.
@@ -56,6 +58,7 @@ struct RouteAssembler: Sendable {
                            isSteps: network.edgeIsSteps[parent],
                            isUnderpass: e.isUnderpass,
                            isCrossingEdge: e.isCrossing || e.wayClass == .crossing,
+                           isCovered: e.isCovered,
                            sunny: network.edgeSunny[parent],
                            parent: parent,
                            forward: query.isForward(step.edge, from: step.from),
@@ -94,7 +97,8 @@ struct RouteAssembler: Sendable {
         // Shade runs.
         var segments: [RouteSegment] = []
         if let shadeRuns, coords.count >= 2, distance > 0 {
-            segments = shadeRuns(coords, sun)
+            segments = coverAwareRuns(shadeRuns, legs: legs, coords: coords, legStart: legStart, legEnd: legEnd,
+                                      cumulative: cumulative, sun: sun)
         }
         if segments.isEmpty {
             segments = majoritySegments(legs: legs, coords: coords, legStart: legStart, legEnd: legEnd,
@@ -185,6 +189,42 @@ struct RouteAssembler: Sendable {
             n = m + 1
         }
         return count
+    }
+
+    /// `shadeRuns` over the route, except that covered legs are always shaded (the shade engine only sees
+    /// buildings and trees). Without covered legs this is one `shadeRuns` call over the whole polyline.
+    private func coverAwareRuns(_ shadeRuns: WalkRouter.ShadeRunsProvider, legs: [Leg], coords: [GeoCoordinate],
+                                legStart: [Int], legEnd: (Int) -> Int, cumulative: [Double],
+                                sun: SunPosition) -> [RouteSegment] {
+        guard legs.contains(where: \.isCovered) else { return shadeRuns(coords, sun) }
+        // Maximal coordinate ranges of covered / open legs (legs are contiguous).
+        var spans: [(lo: Int, hi: Int, covered: Bool)] = []
+        for (i, leg) in legs.enumerated() {
+            let lo = legStart[i], hi = legEnd(i)
+            guard hi > lo else { continue }
+            if let last = spans.last, last.covered == leg.isCovered {
+                spans[spans.count - 1].hi = hi
+            } else {
+                spans.append((lo, hi, leg.isCovered))
+            }
+        }
+        var out: [RouteSegment] = []
+        for span in spans {
+            let piece = Array(coords[span.lo...span.hi])
+            let runs = span.covered
+                ? [RouteSegment(coordinates: piece, length: cumulative[span.hi] - cumulative[span.lo], isShaded: true)]
+                : shadeRuns(piece, sun)
+            for run in runs {
+                if let last = out.last, last.isShaded == run.isShaded {
+                    let shared = run.coordinates.first == last.coordinates.last
+                    out[out.count - 1].coordinates.append(contentsOf: run.coordinates.dropFirst(shared ? 1 : 0))
+                    out[out.count - 1].length += run.length
+                } else {
+                    out.append(run)
+                }
+            }
+        }
+        return out
     }
 
     /// Each leg coloured by its majority shade (access legs sunny while the sun is up); equal neighbours merged.

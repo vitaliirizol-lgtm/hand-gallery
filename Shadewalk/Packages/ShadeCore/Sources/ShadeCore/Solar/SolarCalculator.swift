@@ -148,7 +148,7 @@ public enum SolarCalculator {
         // Same angle as NOAA's acos-based azimuth, but atan2 stays defined at the poles and at the zenith.
         let y = sin(h) * cos(delta)
         let x = cos(h) * cos(delta) * sin(phi) - sin(delta) * cos(phi)
-        let azimuth = normalizeAzimuth(GeoMath.degrees(atan2(y, x)) + 180)
+        let azimuth = GeoMath.normalizeDegrees(GeoMath.degrees(atan2(y, x)) + 180)
         return (azimuth, elevation, ha)
     }
 
@@ -212,11 +212,5 @@ public enum SolarCalculator {
     private static func normalizeSigned(_ d: Double) -> Double {
         let r = GeoMath.normalizeDegrees(d + 180) - 180
         return r >= 180 ? r - 360 : r
-    }
-
-    /// Normalises to `[0, 360)`, guarding against `-tiny + 360 == 360` rounding.
-    private static func normalizeAzimuth(_ d: Double) -> Double {
-        let r = GeoMath.normalizeDegrees(d)
-        return r >= 360 ? 0 : r
     }
 }

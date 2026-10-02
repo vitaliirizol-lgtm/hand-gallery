@@ -144,15 +144,7 @@ private struct PathWalker {
         }
         let seg = segments[lo]
         let t = min(1, max(0, (distance - seg.offset) / seg.length))
-        return (Self.interpolate(seg.start, seg.end, t), seg.bearing)
-    }
-
-    /// Linear interpolation that takes the short way across the ±180° meridian.
-    private static func interpolate(_ a: GeoCoordinate, _ b: GeoCoordinate, _ t: Double) -> GeoCoordinate {
-        var dLon = b.longitude - a.longitude
-        if dLon > 180 { dLon -= 360 } else if dLon < -180 { dLon += 360 }
-        var lon = a.longitude + dLon * t
-        if lon > 180 { lon -= 360 } else if lon < -180 { lon += 360 }
-        return GeoCoordinate(latitude: a.latitude + (b.latitude - a.latitude) * t, longitude: lon)
+        // GeoMath.interpolate takes the short way across the ±180° meridian.
+        return (GeoMath.interpolate(seg.start, seg.end, fraction: t), seg.bearing)
     }
 }

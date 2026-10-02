@@ -15,7 +15,7 @@ public enum ShadeOverlayState: Hashable, Sendable {
 
 /// Shadow polygons for the visible map area at the selected time.
 ///
-/// `update(visible:date:)` is debounced. Areas with a side longer than `maxVisibleSide` (2.5 km) are not computed
+/// `update(visible:date:)` is debounced. Areas with a side longer than `maxVisibleSide` (2.3 km) are not computed
 /// (`.tooZoomedOut`, polygons cleared). The last good overlay stays visible while a new one loads.
 @MainActor @Observable
 public final class ShadeOverlayModel {
@@ -44,10 +44,11 @@ public final class ShadeOverlayModel {
     /// - Parameters:
     ///   - provider: shadow polygon source.
     ///   - debounceInterval: delay after the last `update`, seconds (0 in tests).
-    ///   - maxVisibleSide: largest visible side that is still computed, metres.
+    ///   - maxVisibleSide: largest visible side that is still computed, metres. The fetched area adds 15 % on each
+    ///     side, so the default keeps it within `RoutePlanner.maxOverlaySide` (3 km).
     ///   - dateTolerance: dates closer than this reuse an overlay, seconds.
     public init(provider: ShadeOverlayProviding, isEnabled: Bool = false, debounceInterval: TimeInterval = 0.35,
-                maxVisibleSide: Double = 2_500, dateTolerance: TimeInterval = 60) {
+                maxVisibleSide: Double = 2_300, dateTolerance: TimeInterval = 60) {
         self.provider = provider
         self.isEnabled = isEnabled
         self.debounceInterval = max(0, debounceInterval)

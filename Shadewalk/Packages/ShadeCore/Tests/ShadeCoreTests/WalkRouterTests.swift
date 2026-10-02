@@ -510,6 +510,37 @@ final class WalkRouterTests: XCTestCase {
         XCTAssertEqual(r.shadedDistance, r.distance, accuracy: 1e-9)
     }
 
+    func testCoveredLegsAreShadedEvenWhenShadeRunsSaySunny() throws {
+        final class Box: @unchecked Sendable {
+            private let lock = NSLock()
+            private var lengths: [Double] = []
+            func record(_ l: Double) { lock.lock(); lengths.append(l); lock.unlock() }
+            var calls: [Double] { lock.lock(); defer { lock.unlock() }; return lengths }
+        }
+        var t = RoutingTestGraph()
+        let a = t.node(0, 0), b = t.node(40, 0), c = t.node(70, 0), d = t.node(100, 0)
+        t.edge(a, b, shade: 0)
+        t.edges.append(GraphEdge(id: t.edges.count, from: b, to: c, geometry: [t.at(40, 0), t.at(70, 0)],
+                                      length: 30, wayClass: .footway, isCovered: true))
+        t.shade.append(1)
+        t.edge(c, d, shade: 0)
+        let box = Box()
+        // A provider that only sees open sky (like ShadeEngine without casters).
+        let router = WalkRouter(graph: t.graph, edgeShade: t.shade, shadeRuns: { polyline, _ in
+            let length = GeoMath.length(of: polyline)
+            box.record(length)
+            return [RouteSegment(coordinates: polyline, length: length, isShaded: false)]
+        })
+        let r = try t.route(router, from: (0, 0), to: (100, 0))
+        XCTAssertEqual(r.segments.map(\.isShaded), [false, true, false])
+        XCTAssertEqual(r.segments[1].length, 30, accuracy: 0.05)
+        XCTAssertEqual(r.segments[1].coordinates.first, r.segments[0].coordinates.last)
+        XCTAssertEqual(r.segments[2].coordinates.first, r.segments[1].coordinates.last)
+        XCTAssertEqual(r.shadedDistance, 30, accuracy: 0.05)
+        XCTAssertEqual(r.segments.map(\.length).reduce(0, +), r.distance, accuracy: 1e-6)
+        XCTAssertEqual(box.calls.count, 2, "only the open stretches go to the provider")
+    }
+
     func testMissingOrInvalidEdgeShadeIsTreatedAsSunny() throws {
         var t = RoutingTestGraph()
         let a = t.node(0, 0), b = t.node(100, 0)

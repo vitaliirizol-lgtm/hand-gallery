@@ -108,7 +108,9 @@ degrees. Sunrise/sunset at elevation −0.833°. Accuracy target ≤ 0.1° vs NO
 * Heights: `height` (parse `12`, `12 m`, `12.5m`, `40'`/`40 ft`), else `building:levels × 3.2 + roof:levels × 1.5`,
   else defaults by `building=` value (house/detached/residential/terrace 7 m, apartments 18 m,
   commercial/office/retail/hotel 14 m, garage/garages/shed/kiosk/carport/hut 3 m, roof 4 m, other 9 m).
-  `min_height` or `building:min_level × 3.2`.
+  `min_height` or `building:min_level × 3.2`. Roof-only structures (`building=roof|carport|canopy`, `walls=no`)
+  default to 4 m with a 2.5 m underside. Objects built from ways/relations that share an id space with nodes
+  (cool spots, relation rings, tree-row samples) get negative synthetic ids.
 * Walkable: `footway, pedestrian, path, steps, living_street, residential, service, unclassified, track,
   cycleway (unless foot=no), tertiary, secondary, primary (+ `_link`), corridor, bridleway(foot=yes)`.
   Excluded: `motorway, trunk (+_link)` unless `foot=yes|designated`; any way with `foot=no`; `access=private|no`
@@ -147,6 +149,17 @@ parallel leg), returns distance along, remaining distance/duration, next maneuve
 current position is in a shaded run, length of the next sunny stretch, off-route (> 35 m for 3 consecutive fixes or
 > 80 m once with good accuracy), arrival (< 20 m from destination or ≥ 98 % progress).
 
+### 4.8 Planning (`Services/RoutePlanner.swift`)
+Validates coordinates and the 5 km straight-line limit (`ShadeError.tooFar`), then fetches (or reuses) the area
+`box(origin, destination) + 300 m` (min 800 m a side). In memory it keeps ≤ 3 areas (LRU; a request inside a cached or
+in-flight area reuses it), one `ShadeEngine` per area, and edge shade per area per departure rounded to 5 min (sun at
+the area centre at the rounded time). Route sun = sun at the trip midpoint at the exact departure. Elevation (one
+Open-Meteo call for all routes when ≤ 100 samples) and weather (forecast reused 15 min within 2 km) run concurrently;
+their failures are non-fatal. Origin and destination < 5 m apart give a trivial one-route plan (no snapping).
+Cancellation throws `ShadeError.cancelled`; a cancelled caller stops waiting at once, while its area fetch finishes and
+is cached. Overlay: empty (no fetch) when the sun is down or the box side exceeds 3 km. Cool spots: cached area, else
+the provider's `CoolSpotProviding`, else an area fetch.
+
 ## 5. Module ownership (for parallel work)
 
 Foundation (already written, change only via the integration step): `Model/*`, `Geometry/*`, `Services/HTTPClient.swift`.
@@ -159,7 +172,7 @@ bodies, keep the signatures (adding public API is fine; changing/removing it is 
 | shade | `Shade/*` | `ShadeEngineTests` |
 | osm | `OSM/*` | `OSMParserTests`, `WalkGraphBuilderTests` (+ `Tests/ShadeCoreTests/Fixtures/*.json`) |
 | routing | `Routing/*` | `WalkRouterTests`, `ElevationProfileTests` |
-| services | `Services/OverpassClient.swift`, `Services/OpenMeteoClient.swift`, `Services/DiskCache.swift` | `OverpassClientTests`, `OpenMeteoClientTests` |
+| services | `Services/OverpassClient.swift`, `Services/OpenMeteoClient.swift`, `Services/DiskCache.swift`, `Services/StableHash.swift` | `OverpassClientTests`, `OpenMeteoClientTests`, `DiskCacheTests` |
 | features | `Navigation/*`, `Sources/ShadeFeatures/*` | `RouteProgressTrackerTests`, `Tests/ShadeFeaturesTests/*` |
 | integration | `Services/RoutePlanner.swift` | `RoutePlannerTests`, `EndToEndTests` |
 

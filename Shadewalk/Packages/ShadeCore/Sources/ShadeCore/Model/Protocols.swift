@@ -45,7 +45,8 @@ public protocol LocationProviding: AnyObject {
     var authorization: LocationAuthorization { get }
     var lastFix: LocationFix? { get }
     func requestAuthorization()
-    /// Stream of location fixes; ends when the consumer cancels.
+    /// Stream of location fixes; ends when the consumer cancels. Several streams may be open at once
+    /// (e.g. the location and navigation models); every fix is delivered to each open stream.
     func fixes() -> AsyncStream<LocationFix>
 }
 

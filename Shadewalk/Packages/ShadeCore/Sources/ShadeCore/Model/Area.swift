@@ -2,6 +2,7 @@ import Foundation
 
 /// Building footprint extruded to `height`.
 public struct Building: Hashable, Codable, Sendable, Identifiable {
+    /// OSM way id; rings from multipolygon relations get negative synthetic ids.
     public var id: Int64
     /// Outer ring, open (first vertex is not repeated), at least 3 vertices.
     public var footprint: [GeoCoordinate]
@@ -23,6 +24,7 @@ public struct Building: Hashable, Codable, Sendable, Identifiable {
 
 /// Single tree (or a sample along a tree row).
 public struct Tree: Hashable, Codable, Sendable, Identifiable {
+    /// OSM node id; samples along tree rows get negative synthetic ids.
     public var id: Int64
     public var coordinate: GeoCoordinate
     /// Total height, metres (default 8).
@@ -40,6 +42,7 @@ public struct Tree: Hashable, Codable, Sendable, Identifiable {
 
 /// Continuous tree canopy area (woods, forest).
 public struct CanopyArea: Hashable, Codable, Sendable, Identifiable {
+    /// OSM way id; rings from multipolygon relations get negative synthetic ids.
     public var id: Int64
     /// Outer ring, open.
     public var ring: [GeoCoordinate]
@@ -65,6 +68,7 @@ public enum CoolSpotKind: String, Codable, Sendable, CaseIterable, Hashable {
 
 /// A place to cool down or refill water.
 public struct CoolSpot: Hashable, Codable, Sendable, Identifiable {
+    /// OSM node id; spots mapped as ways / relations get negative synthetic ids so they never collide with nodes.
     public var id: Int64
     public var kind: CoolSpotKind
     public var name: String?

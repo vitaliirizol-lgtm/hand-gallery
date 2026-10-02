@@ -173,7 +173,7 @@ public final class ShadeEngine: @unchecked Sendable {
         let edges = graph.edges
         guard let s = ShadeSun(sun) else { return [Double](repeating: 1, count: edges.count) }
         let ctx = QueryContext(engine: self, sun: s)
-        func fraction(_ i: Int) -> Double {
+        @Sendable func fraction(_ i: Int) -> Double {
             let e = edges[i]
             return e.isCovered ? 1 : shadeFraction(e.geometry, ctx, spacing: ShadeModel.defaultSpacing)
         }
@@ -185,11 +185,12 @@ public final class ShadeEngine: @unchecked Sendable {
             return out
         }
         out.withUnsafeMutableBufferPointer { buffer in
-            guard let base = buffer.baseAddress else { return }
             // Each iteration writes a disjoint index range; the engine itself is immutable.
+            guard let address = buffer.baseAddress else { return }
+            let target = ShadeOutputPointer(base: address)
             DispatchQueue.concurrentPerform(iterations: chunks) { c in
                 let lo = c * chunk, hi = min(lo + chunk, edges.count)
-                for i in lo..<hi { base[i] = fraction(i) }
+                for i in lo..<hi { target.base[i] = fraction(i) }
             }
         }
         return out
@@ -429,4 +430,9 @@ private struct OverlayCandidate: Sendable {
     var distance: Double
     /// Enumeration order (canopies, buildings, trees), used for stable output.
     var order: Int
+}
+
+/// Output buffer shared with `concurrentPerform` workers that each write a disjoint index range.
+private struct ShadeOutputPointer: @unchecked Sendable {
+    let base: UnsafeMutablePointer<Double>
 }

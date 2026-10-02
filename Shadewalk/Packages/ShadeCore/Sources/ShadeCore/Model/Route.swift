@@ -191,7 +191,7 @@ public struct RouteRequest: Hashable, Sendable {
 }
 
 /// Output of route planning.
-public struct RoutePlan: Sendable {
+public struct RoutePlan: Hashable, Sendable {
     /// Ordered for display: shadiest first, then balanced, then fastest.
     public var routes: [WalkRoute]
     public var sun: SunPosition

@@ -33,7 +33,9 @@ public struct SunPosition: Hashable, Codable, Sendable {
 
 /// Sunrise / sunset for a day at a location.
 public struct SunTimes: Hashable, Codable, Sendable {
-    /// Nil during polar night or midnight sun.
+    /// First rise / last set within the local calendar day. Nil during polar night or midnight sun, and also on
+    /// high-latitude transition days when the event falls outside the day (then `sunset` may even precede
+    /// `sunrise`, e.g. Reykjavik in late June). UI ranges should fall back to the day's start / end.
     public var sunrise: Date?
     public var sunset: Date?
     public var solarNoon: Date

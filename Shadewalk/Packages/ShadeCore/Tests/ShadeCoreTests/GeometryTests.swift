@@ -121,4 +121,27 @@ final class GeometryTests: XCTestCase {
         XCTAssertTrue(g.edges[1].isSteps)
         XCTAssertEqual(g.edges[0].geometry(startingAt: 1).first, n[1].coordinate)
     }
+
+    func testNormalizeDegreesStaysBelow360() {
+        XCTAssertEqual(GeoMath.normalizeDegrees(-1e-15), 0)
+        XCTAssertEqual(GeoMath.normalizeDegrees(-1e-13), 360 - 1e-13)
+        XCTAssertEqual(GeoMath.normalizeDegrees(720), 0)
+        XCTAssertEqual(GeoMath.normalizeDegrees(-90), 270)
+        XCTAssertEqual(GeoMath.angleDifference(from: 1e-15, to: 0), 0)
+    }
+
+    func testInterpolateTakesTheShortWayAcrossTheAntimeridian() {
+        let a = GeoCoordinate(latitude: -18, longitude: 179.9)
+        let b = GeoCoordinate(latitude: -18.2, longitude: -179.9)
+        let mid = GeoMath.interpolate(a, b, fraction: 0.5)
+        XCTAssertEqual(abs(mid.longitude), 180, accuracy: 1e-9)
+        XCTAssertEqual(mid.latitude, -18.1, accuracy: 1e-12)
+        let quarter = GeoMath.interpolate(a, b, fraction: 0.75)
+        XCTAssertEqual(quarter.longitude, -179.95, accuracy: 1e-9)
+        XCTAssertLessThan(GeoMath.distance(a, quarter), GeoMath.distance(a, b))
+        // Ordinary segments are unchanged.
+        let c = GeoCoordinate(latitude: 37.5, longitude: 126.9), d = GeoCoordinate(latitude: 37.6, longitude: 127.1)
+        XCTAssertEqual(GeoMath.interpolate(c, d, fraction: 0.25),
+                       GeoCoordinate(latitude: 37.5 + 0.1 * 0.25, longitude: 126.9 + (127.1 - 126.9) * 0.25))
+    }
 }

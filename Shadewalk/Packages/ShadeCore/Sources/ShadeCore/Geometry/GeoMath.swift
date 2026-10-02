@@ -16,7 +16,9 @@ public enum GeoMath {
     /// Normalises an angle in degrees to `[0, 360)`.
     public static func normalizeDegrees(_ d: Double) -> Double {
         let r = d.truncatingRemainder(dividingBy: 360)
-        return r < 0 ? r + 360 : r
+        let n = r < 0 ? r + 360 : r
+        // `-1e-15 + 360` rounds to exactly 360.
+        return n >= 360 ? 0 : n
     }
 
     /// Signed smallest difference `b − a` in degrees, in `(-180, 180]`.
@@ -54,10 +56,14 @@ public enum GeoMath {
         return GeoCoordinate(latitude: degrees(φ2), longitude: lon)
     }
 
-    /// Linear interpolation between two coordinates (fine for short distances).
+    /// Linear interpolation between two coordinates (fine for short distances). Takes the short way across the
+    /// ±180° meridian.
     public static func interpolate(_ a: GeoCoordinate, _ b: GeoCoordinate, fraction t: Double) -> GeoCoordinate {
-        GeoCoordinate(latitude: a.latitude + (b.latitude - a.latitude) * t,
-                      longitude: a.longitude + (b.longitude - a.longitude) * t)
+        var dLon = b.longitude - a.longitude
+        if dLon > 180 { dLon -= 360 } else if dLon < -180 { dLon += 360 }
+        var lon = a.longitude + dLon * t
+        if lon > 180 { lon -= 360 } else if lon < -180 { lon += 360 }
+        return GeoCoordinate(latitude: a.latitude + (b.latitude - a.latitude) * t, longitude: lon)
     }
 
     /// Total length of a polyline in metres.
@@ -134,8 +140,9 @@ public enum GeoMath {
     }
 
     /// Projects `point` onto `polyline` (planar approximation around the point).
-    /// Only segments whose start lies within `[minDistanceAlong, maxDistanceAlong]` (cumulative distance) are
-    /// considered, which lets navigation search a window ahead of the current progress.
+    /// Only segments overlapping `[minDistanceAlong, maxDistanceAlong]` (cumulative distance) are considered,
+    /// which lets navigation search a window ahead of the current progress. The result is not clamped to the
+    /// window, and distances are recomputed on every call (precompute them for hot loops).
     public static func project(_ point: GeoCoordinate, onto polyline: [GeoCoordinate],
                                minDistanceAlong: Double = -.infinity,
                                maxDistanceAlong: Double = .infinity) -> PolylineProjection? {
