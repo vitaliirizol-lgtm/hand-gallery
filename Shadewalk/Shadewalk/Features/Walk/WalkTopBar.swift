@@ -180,7 +180,7 @@ struct WeatherPill: View {
             parts.append(String(localized: "UV \(index)", comment: "UV index, e.g. “UV 7”."))
             parts.append(WalkUVLevel(index: index).displayName)
         }
-        return parts.formatted(.list(type: .unit))
+        return parts.formatted(.list(type: .and, width: .narrow))
     }
 
     private func temperature(_ value: Double, showsUnit: Bool = true) -> String {

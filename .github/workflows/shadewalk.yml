@@ -2,6 +2,7 @@ name: Shadewalk
 
 on:
   push:
+    branches: [main]
     paths:
       - "Shadewalk/**"
       - ".github/workflows/shadewalk.yml"
@@ -53,6 +54,8 @@ jobs:
 
       - name: Toolchain
         run: |
+          # Report every compile error in one run instead of stopping at the first failing batch.
+          defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool YES
           xcodebuild -version
           swift --version
           xcrun --sdk iphonesimulator --show-sdk-version
