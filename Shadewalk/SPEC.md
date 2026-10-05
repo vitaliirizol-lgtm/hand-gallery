@@ -183,11 +183,20 @@ Original "Shadewalk" look — calm, cool, legible in harsh sunlight.
 * Colours (light / dark): `shade` deep green `#0E7A55` / `#3DDC97`; `shadeSoft` `#DDF5EA` / `#123528`;
   `sun` orange `#FF8A2A` / `#FF9F4D`; `heat` red `#E5484D`; `ink` `#0F1A17` / `#F2F7F5`; `inkSecondary` 60 %;
   `surface` white / `#101615`; `canvas` `#F3F7F5` / `#070B0A`; accent = `shade`.
+* Readable variants (text and glyphs must reach 4.5:1): `sunInk` `#A85200` / `#FF9F4D` for orange text;
+  `sunFill` `#A85200` / `#B35A00` behind white glyphs; `shadeInk` `#0B5E41` / `#3DDC97` and `heatInk` `#B4232A` /
+  `#FF6B70` for labels on a 14 % tint fill (secondary buttons). Plain `sun` is for fills, route runs and large graphics.
+* Domain colours: `water` `#0B7285` / `#4FD1E8` (drinking water, cool spots), `indoor` `#5146D9` / `#A5A0FF`,
+  `uvModerate` `#A67C00` / `#FFD60A`, `uvExtreme` `#7E3FB8` / `#C58AF9`, `locator` (My Location) `#0060D6` /
+  `#5AA3FF`. Every tint used as a solid fill is dark in light mode and light in dark mode, so `surface`-coloured text
+  on it stays legible. No system colours (`.teal`, `.blue`, …) in the UI.
 * Typography: SF Pro; numbers in `.rounded` design, heavy weights for big metrics (`18 min`).
-* Shapes: 20 pt continuous corner cards, 999 pt capsule chips, soft shadows; materials (`.regularMaterial`) for
-  floating map controls.
+* Shapes: 20 pt continuous corner cards, 14 pt controls, 28 pt for bottom panels docked to the screen edge and large
+  illustration tiles, 999 pt capsule chips, soft shadows; tiles inside a card use concentric corners (card radius minus
+  padding). Materials (`.regularMaterial`) for floating map controls. Touch targets are at least 44 × 44 pt.
 * Map: `.standard(elevation: .realistic, emphasis: .muted, pointsOfInterest: .excludingAll)`; shade overlay
-  polygons in `ink` at 18 % opacity; selected route 7 pt stroke, alternates 5 pt in `inkSecondary`.
+  polygons (`shadeOverlay`) in `ink` at 18 % opacity in light mode and black at 40 % in dark mode, so shadows always
+  darken the map; selected route 7 pt stroke, alternates 5 pt in `inkSecondary`.
 * Icon: original — teal→mint gradient tile, white winding footpath disappearing under a dark leaf-shaped shadow,
   small warm sun disc top-right.
 * Motion: spring animations for sheets/cards, haptic ticks on slider hour marks and maneuvers.
