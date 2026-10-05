@@ -1,0 +1,111 @@
+# XcodeGen spec for the Shadewalk iOS app.
+# Regenerate the project after adding/removing files:  cd Shadewalk && xcodegen generate
+name: Shadewalk
+
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_EMIT_LOC_STRINGS: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    # Colours are looked up by name through `Theme`; no generated asset symbols (avoids name clashes).
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS: NO
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: NO
+
+packages:
+  ShadeCore:
+    path: Packages/ShadeCore
+
+targets:
+  Shadewalk:
+    type: application
+    platform: iOS
+    sources:
+      # Everything under Shadewalk/: Swift sources, plus Resources/Assets.xcassets, Resources/Localizable.xcstrings
+      # and Resources/InfoPlist.xcstrings (Copy Bundle Resources). XcodeGen reads the locales in the string catalogs
+      # into the project's knownRegions (en, ru, uk); Info.plist is referenced by INFOPLIST_FILE, not copied.
+      - path: Shadewalk
+    dependencies:
+      - package: ShadeCore
+        product: ShadeCore
+      - package: ShadeCore
+        product: ShadeFeatures
+    info:
+      # Merged with the generated Info.plist (GENERATE_INFOPLIST_FILE) — only keys without an INFOPLIST_KEY_ setting.
+      path: Shadewalk/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleLocalizations:
+          - en
+          - ru
+          - uk
+        # Follow mode keeps guiding a walk while the phone is locked (CoreLocationProvider enables background
+        # updates only while a walk is followed).
+        UIBackgroundModes:
+          - location
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.shadewalk
+        PRODUCT_NAME: Shadewalk
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_PREVIEWS: YES
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Shadewalk
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Shadewalk uses your location to start shady walking routes from where you are and to guide you along them."
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIStatusBarStyle: UIStatusBarStyleDefault
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.navigation
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+
+  ShadewalkTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: ShadewalkTests
+    dependencies:
+      - target: Shadewalk
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.shadewalk.tests
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Shadewalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shadewalk
+        BUNDLE_LOADER: $(TEST_HOST)
+
+schemes:
+  Shadewalk:
+    build:
+      targets:
+        Shadewalk: all
+        # Built by `xcodebuild build` (run) and `xcodebuild test`; not archived (tests use @testable import).
+        ShadewalkTests: [run, test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: false
+      targets:
+        - ShadewalkTests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

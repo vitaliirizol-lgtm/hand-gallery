@@ -1,0 +1,134 @@
+name: Shadewalk
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Shadewalk/**"
+      - ".github/workflows/shadewalk.yml"
+  pull_request:
+    paths:
+      - "Shadewalk/**"
+      - ".github/workflows/shadewalk.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: shadewalk-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  core-linux:
+    name: ShadeCore (Linux)
+    runs-on: ubuntu-latest
+    # Official Swift image. If this tag is unavailable, fall back to swift:6.1-noble (or swift:6.0-jammy).
+    container: swift:6.2-noble
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: Shadewalk/Packages/ShadeCore
+    steps:
+      - uses: actions/checkout@v4
+      - name: Toolchain
+        run: swift --version
+      - name: Build
+        run: swift build --build-tests
+      - name: Test
+        run: swift test --skip-build
+
+  ios:
+    name: iOS app (Xcode)
+    runs-on: macos-15
+    timeout-minutes: 45
+    env:
+      PROJECT: Shadewalk/Shadewalk.xcodeproj
+      SCHEME: Shadewalk
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Toolchain
+        run: |
+          # Report every compile error in one run instead of stopping at the first failing batch.
+          defaults write com.apple.dt.Xcode IDEBuildingContinueBuildingAfterErrors -bool YES
+          xcodebuild -version
+          swift --version
+          xcrun --sdk iphonesimulator --show-sdk-version
+
+      - name: ShadeCore tests (macOS)
+        working-directory: Shadewalk/Packages/ShadeCore
+        run: swift test
+
+      - name: Build app (iOS Simulator)
+        run: |
+          set -o pipefail
+          if ! xcodebuild -quiet -project "$PROJECT" -scheme "$SCHEME" \
+                -destination 'generic/platform=iOS Simulator' \
+                -configuration Debug \
+                build CODE_SIGNING_ALLOWED=NO 2>&1 | tee build.log; then
+            echo "::group::Compiler errors"
+            grep -nE "error:|fatal error:" build.log | head -200 || true
+            echo "::endgroup::"
+            exit 1
+          fi
+
+      - name: Pick an iPhone simulator
+        id: simulator
+        run: |
+          SDK_VERSION="$(xcrun --sdk iphonesimulator --show-sdk-version)"
+          UDID="$(xcrun simctl list devices available -j | SDK_VERSION="$SDK_VERSION" python3 -c '
+          import json, os, re, sys
+
+          def version(text):
+              return tuple(int(part) for part in re.findall(r"\d+", text))
+
+          sdk = version(os.environ["SDK_VERSION"])[:2]
+          best = None
+          for runtime, devices in json.load(sys.stdin)["devices"].items():
+              if ".iOS-" not in runtime:
+                  continue
+              runtime_version = version(runtime.split(".iOS-")[-1])
+              if runtime_version[:2] > sdk:
+                  continue  # newer than this Xcode can run
+              for device in devices:
+                  if device.get("isAvailable") and device.get("name", "").startswith("iPhone"):
+                      key = (runtime_version, device["name"])
+                      if best is None or key > best[0]:
+                          best = (key, device["udid"])
+          print(best[1] if best else "")
+          ')"
+          if [ -z "$UDID" ]; then
+            echo "No available iPhone simulator found" >&2
+            xcrun simctl list devices available
+            exit 1
+          fi
+          echo "Using simulator $UDID"
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+
+      - name: Test (iOS Simulator)
+        run: |
+          set -o pipefail
+          if ! xcodebuild -quiet -project "$PROJECT" -scheme "$SCHEME" \
+                -destination "id=${{ steps.simulator.outputs.udid }}" \
+                -configuration Debug \
+                test CODE_SIGNING_ALLOWED=NO 2>&1 | tee test.log; then
+            echo "::group::Errors and failing tests"
+            grep -nE "error:|fatal error:|failed|Failing tests" test.log | head -200 || true
+            echo "::endgroup::"
+            exit 1
+          fi
+
+      - name: Upload logs
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-logs
+          path: |
+            build.log
+            test.log
+          if-no-files-found: ignore

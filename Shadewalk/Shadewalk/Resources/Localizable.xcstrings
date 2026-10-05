@@ -1,0 +1,6706 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ in shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ в тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ у тіні"
+          }
+        }
+      }
+    },
+    "%@ in sun" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ на солнце"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ на сонці"
+          }
+        }
+      }
+    },
+    "%@ route, %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут «%1$@», %2$@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут «%1$@», %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@" : {
+      "comment" : "Map label of a route: profile and walking time, e.g. “Shadiest · 14 min”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %lld" : {
+      "comment" : "Cool-spot filter chip: kind and number of spots, e.g. “Park · 3”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$lld"
+          }
+        }
+      }
+    },
+    "%@. Steepest stretch %lld percent. Climb %@, descent %@." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@. Самый крутой участок — %2$lld %%. Подъём %3$@, спуск %4$@."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@. Найкрутіша ділянка — %2$lld %%. Підйом %3$@, спуск %4$@."
+          }
+        }
+      }
+    },
+    "%lld cool spots" : {
+      "comment" : "Chip: number of cool spots (water, shade, cool interiors) along the route.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cool spot"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cool spots"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладное место"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладных места"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладных мест"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладного места"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодне місце"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодні місця"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодних місць"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодного місця"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld cool spots within a short walk of this route." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cool spot within a short walk of this route."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cool spots within a short walk of this route."
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладное место недалеко от маршрута."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладных места недалеко от маршрута."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладных мест недалеко от маршрута."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохладного места недалеко от маршрута."
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодне місце неподалік від маршруту."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодні місця неподалік від маршруту."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодних місць неподалік від маршруту."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld прохолодного місця неподалік від маршруту."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld h %@ min" : {
+      "comment" : "Duration of an hour or more, e.g. “1 h 05 min”. The minutes are zero-padded.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld ч %2$@ мин"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld год %2$@ хв"
+          }
+        }
+      }
+    },
+    "%lld min" : {
+      "comment" : "Duration shorter than an hour, e.g. “18 min”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld мин"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld хв"
+          }
+        }
+      }
+    },
+    "%lld percent shade" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld percent shade"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld percent shade"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld процент в тени"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld процента в тени"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld процентов в тени"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld процента в тени"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld відсоток у тіні"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld відсотки в тіні"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld відсотків у тіні"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld відсотка в тіні"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld steps" : {
+      "comment" : "Number of walking steps, e.g. “1,898 steps”.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld step"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld steps"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld шаг"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld шага"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld шагов"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld шага"
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld крок"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld кроки"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld кроків"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld кроку"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О приложении"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Про застосунок"
+          }
+        }
+      }
+    },
+    "Accept up to %@ longer walks for more shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ради тени путь может стать длиннее — до %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заради тіні шлях може стати довшим — до %@"
+          }
+        }
+      }
+    },
+    "Add a favorite" : {
+      "comment" : "Row that adds a favorite place.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить в избранное"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати в обране"
+          }
+        }
+      }
+    },
+    "Add an address for one-tap walks" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавьте адрес, чтобы строить маршрут в одно касание"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додайте адресу, щоб прокладати маршрут одним дотиком"
+          }
+        }
+      }
+    },
+    "Add to favorites" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить в избранное"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Додати в обране"
+          }
+        }
+      }
+    },
+    "All layers off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все слои выключены"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Усі шари вимкнено"
+          }
+        }
+      }
+    },
+    "Allow location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешить доступ к геопозиции"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозволити доступ до геолокації"
+          }
+        }
+      }
+    },
+    "Allow location so routes start where you are and you can follow along as you walk." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешите доступ к геопозиции, чтобы маршруты начинались там, где вы находитесь, а навигация вела вас по пути."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозвольте доступ до геолокації, щоб маршрути починалися там, де ви перебуваєте, а навігація вела вас дорогою."
+          }
+        }
+      }
+    },
+    "Allow location so routes start where you are and you can follow along as you walk. It’s only used to plan and guide your walks." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешите доступ к геопозиции, чтобы маршруты начинались там, где вы находитесь, а навигация вела вас по пути. Геопозиция нужна только для построения маршрутов и навигации."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозвольте доступ до геолокації, щоб маршрути починалися там, де ви перебуваєте, а навігація вела вас дорогою. Геолокація потрібна лише для прокладання маршрутів і навігації."
+          }
+        }
+      }
+    },
+    "Also balanced" : {
+      "comment" : "Route card: this route is also the balanced one.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Также оптимальный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Також оптимальний"
+          }
+        }
+      }
+    },
+    "Also the fastest" : {
+      "comment" : "Route card: this route is also the fastest one.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Также самый быстрый"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Також найшвидший"
+          }
+        }
+      }
+    },
+    "Also the shadiest" : {
+      "comment" : "Route card: this route is also the shadiest one.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Также самый тенистый"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Також найтінистіший"
+          }
+        }
+      }
+    },
+    "Arcades, colonnades, tunnels and indoor passages always count as shade." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аркады, колоннады, тоннели и крытые проходы всегда считаются тенью."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аркади, колонади, тунелі та криті проходи завжди вважаються тінню."
+          }
+        }
+      }
+    },
+    "Arrival" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибытие"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибуття"
+          }
+        }
+      }
+    },
+    "Arrive %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибытие в %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибуття о %@"
+          }
+        }
+      }
+    },
+    "Arrive at your destination" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибытие в пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибуття до пункту призначення"
+          }
+        }
+      }
+    },
+    "Automatic" : {
+      "comment" : "Distance units follow the device region.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматически"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматично"
+          }
+        }
+      }
+    },
+    "Automatic units follow your iPhone’s region. The shade overlay setting applies the next time Shadewalk starts." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматические единицы зависят от региона iPhone. Настройка слоя теней применится при следующем запуске Shadewalk."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматичні одиниці залежать від регіону iPhone. Налаштування шару тіней застосується під час наступного запуску Shadewalk."
+          }
+        }
+      }
+    },
+    "Avoid stairs" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избегать лестниц"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уникати сходів"
+          }
+        }
+      }
+    },
+    "Balanced" : {
+      "comment" : "Route profile: trade-off between shade and time.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оптимальный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оптимальний"
+          }
+        }
+      }
+    },
+    "Based on the road between your stops, so treat it as a guide: rails and bus lanes can differ a little." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расчёт идёт по дороге между вашими остановками, поэтому это ориентир: рельсы и выделенные полосы могут немного отличаться."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розрахунок ведеться дорогою між вашими зупинками, тож це орієнтир: колії та виділені смуги можуть трохи відрізнятися."
+          }
+        }
+      }
+    },
+    "Bear left" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держитесь левее"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тримайтеся лівіше"
+          }
+        }
+      }
+    },
+    "Bear left onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держитесь левее: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тримайтеся лівіше: %@"
+          }
+        }
+      }
+    },
+    "Bear right" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держитесь правее"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тримайтеся правіше"
+          }
+        }
+      }
+    },
+    "Bear right onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Держитесь правее: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тримайтеся правіше: %@"
+          }
+        }
+      }
+    },
+    "Both sides get about the same sun: %@ on the left, %@ on the right." : {
+      "comment" : "Seat-side reason. Values are percentages of the side sunlight.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнца примерно поровну с обеих сторон: %1$@ слева, %2$@ справа."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонця приблизно порівну з обох боків: %1$@ ліворуч, %2$@ праворуч."
+          }
+        }
+      }
+    },
+    "Brisk" : {
+      "comment" : "Walking speed preset (fast).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Быстрый"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Швидкий"
+          }
+        }
+      }
+    },
+    "Building heights from OpenStreetMap" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Высота зданий из OpenStreetMap"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Висота будівель з OpenStreetMap"
+          }
+        }
+      }
+    },
+    "Building outlines and heights come from OpenStreetMap. A spot is shaded when a building stands between it and the sun and is tall enough to block it." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контуры и высота зданий берутся из OpenStreetMap. Точка в тени, если между ней и солнцем стоит здание, достаточно высокое, чтобы его заслонить."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контури й висота будівель беруться з OpenStreetMap. Точка в тіні, якщо між нею і сонцем стоїть будівля, достатньо висока, щоб його затулити."
+          }
+        }
+      }
+    },
+    "Buildings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здания"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будівлі"
+          }
+        }
+      }
+    },
+    "Bus" : {
+      "comment" : "Vehicle kind for the seat-side advisor.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автобус"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автобус"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отменить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
+          }
+        }
+      }
+    },
+    "Cancelled." : {
+      "comment" : "A request was cancelled.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отменено."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасовано."
+          }
+        }
+      }
+    },
+    "Casting shadows…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отбрасываем тени…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкидаємо тіні…"
+          }
+        }
+      }
+    },
+    "Change" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Змінити"
+          }
+        }
+      }
+    },
+    "Change address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить адрес"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Змінити адресу"
+          }
+        }
+      }
+    },
+    "Change destination" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Змінити пункт призначення"
+          }
+        }
+      }
+    },
+    "Checking the weather…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнаём погоду…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дізнаємося погоду…"
+          }
+        }
+      }
+    },
+    "Choose a different destination" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать другой пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибрати інший пункт призначення"
+          }
+        }
+      }
+    },
+    "Choose a different starting point" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать другую начальную точку"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибрати іншу початкову точку"
+          }
+        }
+      }
+    },
+    "Choose a name you’ll recognize at a glance." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите название, которое легко узнать с первого взгляда."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть назву, яку легко впізнати з першого погляду."
+          }
+        }
+      }
+    },
+    "Choose a starting point" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите начальную точку"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть початкову точку"
+          }
+        }
+      }
+    },
+    "Choose where you get off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите, где выйдете"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть, де вийдете"
+          }
+        }
+      }
+    },
+    "Choose where you get on" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите, где сядете"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть, де сядете"
+          }
+        }
+      }
+    },
+    "Choose where you get on and off, and when you leave." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Укажите, где вы садитесь и выходите, и время отправления."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вкажіть, де ви сідаєте й виходите, і час відправлення."
+          }
+        }
+      }
+    },
+    "Choose where you get on and off." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Укажите, где вы садитесь и выходите."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вкажіть, де ви сідаєте й виходите."
+          }
+        }
+      }
+    },
+    "Choosing the route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбор маршрута"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибір маршруту"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистити"
+          }
+        }
+      }
+    },
+    "Clear night" : {
+      "comment" : "Sky in the weather pill: night, few clouds.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ясная ночь"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ясна ніч"
+          }
+        }
+      }
+    },
+    "Clear recent searches" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить недавние запросы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистити нещодавні запити"
+          }
+        }
+      }
+    },
+    "Clear search" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить поиск"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистити пошук"
+          }
+        }
+      }
+    },
+    "Clear sky" : {
+      "comment" : "Sky in the weather pill: sunny day, few clouds.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ясно"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ясно"
+          }
+        }
+      }
+    },
+    "Climb" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подъём"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підйом"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрити"
+          }
+        }
+      }
+    },
+    "Close route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрити маршрут"
+          }
+        }
+      }
+    },
+    "Cloud cover" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облачность"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарність"
+          }
+        }
+      }
+    },
+    "Clouds aren’t used for route shade. The sky icon in the weather pill shows how cloudy it is." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облачность не учитывается в тени маршрута — насколько облачно, показывает значок неба на плашке погоды."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарність не враховується в тіні маршруту — наскільки хмарно, показує значок неба на плашці погоди."
+          }
+        }
+      }
+    },
+    "Cloudy" : {
+      "comment" : "Sky in the weather pill: overcast day.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облачно"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарно"
+          }
+        }
+      }
+    },
+    "Cloudy night" : {
+      "comment" : "Sky in the weather pill: night with clouds.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Облачная ночь"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарна ніч"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити"
+          }
+        }
+      }
+    },
+    "Continue onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжайте движение: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжуйте рух: %@"
+          }
+        }
+      }
+    },
+    "Continue straight" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжайте прямо"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжуйте прямо"
+          }
+        }
+      }
+    },
+    "Continue without location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить без геопозиции"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити без геолокації"
+          }
+        }
+      }
+    },
+    "Cool indoors" : {
+      "comment" : "Cool spot kind: libraries, malls, community centres.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохлада в помещении"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолода в приміщенні"
+          }
+        }
+      }
+    },
+    "Cool spot" : {
+      "comment" : "A place to cool down (water, shade, indoors).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладное место"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодне місце"
+          }
+        }
+      }
+    },
+    "Cool spots" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладные места"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодні місця"
+          }
+        }
+      }
+    },
+    "Cool spots are found for the area you see. Zoom in a little, then open this list again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладные места ищутся в видимой части карты. Немного приблизьте карту и снова откройте этот список."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодні місця шукаються у видимій частині карти. Трохи наблизьте карту й знову відкрийте цей список."
+          }
+        }
+      }
+    },
+    "Cool spots nearby" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладные места рядом"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодні місця поруч"
+          }
+        }
+      }
+    },
+    "Cool spots on" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладные места включены"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодні місця увімкнено"
+          }
+        }
+      }
+    },
+    "Cool spots on the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохладные места по пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прохолодні місця на шляху"
+          }
+        }
+      }
+    },
+    "Couldn’t find a new route. Head back to the highlighted path." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось найти новый маршрут. Вернитесь на выделенный путь."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося знайти новий маршрут. Поверніться на виділений шлях."
+          }
+        }
+      }
+    },
+    "Couldn’t find a walking route between these places." : {
+      "comment" : "Route planning error.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось найти пеший маршрут между этими местами."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося знайти пішохідний маршрут між цими місцями."
+          }
+        }
+      }
+    },
+    "Couldn’t find that place. Try another search." : {
+      "comment" : "Error when a search suggestion has no matching place.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось найти это место. Попробуйте другой запрос."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося знайти це місце. Спробуйте інший запит."
+          }
+        }
+      }
+    },
+    "Couldn’t read the map data. Please try again." : {
+      "comment" : "Error when map data could not be parsed.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось прочитать картографические данные. Попробуйте ещё раз."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося прочитати картографічні дані. Спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "Covered walkways" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крытые переходы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Криті переходи"
+          }
+        }
+      }
+    },
+    "Cross %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите дорогу: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдіть дорогу: %@"
+          }
+        }
+      }
+    },
+    "Cross the street" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите дорогу"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдіть дорогу"
+          }
+        }
+      }
+    },
+    "Crossings" : {
+      "comment" : "Counter caption: number of street crossings (crosswalks) on the route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пешеходные переходы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пішохідні переходи"
+          }
+        }
+      }
+    },
+    "Departure" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправление"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відправлення"
+          }
+        }
+      }
+    },
+    "Departure time" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Время отправления"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Час відправлення"
+          }
+        }
+      }
+    },
+    "Descent" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спуск"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спуск"
+          }
+        }
+      }
+    },
+    "Destination" : {
+      "comment" : "Map marker at the end of the walk.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт призначення"
+          }
+        }
+      }
+    },
+    "Details" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подробнее"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Детальніше"
+          }
+        }
+      }
+    },
+    "Direction of travel" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Направление движения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напрямок руху"
+          }
+        }
+      }
+    },
+    "Directions" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошаговый маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покроковий маршрут"
+          }
+        }
+      }
+    },
+    "Disabled" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недоступно"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недоступно"
+          }
+        }
+      }
+    },
+    "Distance" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расстояние"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відстань"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
+          }
+        }
+      }
+    },
+    "Drinking water" : {
+      "comment" : "Cool spot kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Питьевая вода"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Питна вода"
+          }
+        }
+      }
+    },
+    "Dropped pin" : {
+      "comment" : "A place marked by long-pressing the map.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Метка"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мітка"
+          }
+        }
+      }
+    },
+    "Earlier today" : {
+      "comment" : "Above a departure time that has already passed.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ранее сегодня"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Раніше сьогодні"
+          }
+        }
+      }
+    },
+    "Earlier today · %@" : {
+      "comment" : "VoiceOver: the chosen departure time has already passed, e.g. “Earlier today · 08:00”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ранее сегодня · %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Раніше сьогодні · %@"
+          }
+        }
+      }
+    },
+    "Either side" : {
+      "comment" : "Recommended seat side when it doesn’t matter.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Любая сторона"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Будь-який бік"
+          }
+        }
+      }
+    },
+    "Either side is fine" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подойдёт любая сторона"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підійде будь-який бік"
+          }
+        }
+      }
+    },
+    "Either side works." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подойдёт любая сторона."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підійде будь-який бік."
+          }
+        }
+      }
+    },
+    "Elevation from Open-Meteo" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Данные о высоте: Open-Meteo"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дані про висоту: Open-Meteo"
+          }
+        }
+      }
+    },
+    "End this walk?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершить маршрут?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершити маршрут?"
+          }
+        }
+      }
+    },
+    "End walk" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершити"
+          }
+        }
+      }
+    },
+    "Enter the underpass" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спуститесь в подземный переход"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спустіться в підземний перехід"
+          }
+        }
+      }
+    },
+    "Every street is checked every few steps. Shadewalk compares the shadiest, a balanced and the fastest route, and only suggests a longer one if it stays within your shade preference." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждая улица проверяется через каждые несколько шагов. Shadewalk сравнивает самый тенистый, оптимальный и самый быстрый маршруты и предлагает более длинный, только если он укладывается в ваш приоритет тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кожну вулицю перевіряють через кожні кілька кроків. Shadewalk порівнює найтінистіший, оптимальний і найшвидший маршрути та пропонує довший, лише якщо він вкладається у ваш пріоритет тіні."
+          }
+        }
+      }
+    },
+    "Extreme" : {
+      "comment" : "UV index band (11+).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экстремальный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Екстремальний"
+          }
+        }
+      }
+    },
+    "Fastest" : {
+      "comment" : "Route profile: the quickest route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Самый быстрый"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найшвидший"
+          }
+        }
+      }
+    },
+    "Favorite" : {
+      "comment" : "Saved place kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избранное"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обране"
+          }
+        }
+      }
+    },
+    "Favorites" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избранное"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обране"
+          }
+        }
+      }
+    },
+    "Feels like %@" : {
+      "comment" : "Weather pill: apparent temperature, e.g. “Feels like 33°”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ощущается как %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відчувається як %@"
+          }
+        }
+      }
+    },
+    "Find the shady side" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найти теневую сторону"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знайти тіньовий бік"
+          }
+        }
+      }
+    },
+    "Find the side of the bus, tram or train that stays out of the sun." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнайте, какая сторона автобуса, трамвая или поезда останется в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дізнайтеся, який бік автобуса, трамвая чи поїзда залишиться в тіні."
+          }
+        }
+      }
+    },
+    "Finding a new shady route…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ищем новый тенистый маршрут…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шукаємо новий тінистий маршрут…"
+          }
+        }
+      }
+    },
+    "Finding cool spots…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ищем прохладные места…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шукаємо прохолодні місця…"
+          }
+        }
+      }
+    },
+    "Finding shady routes…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ищем тенистые маршруты…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шукаємо тінисті маршрути…"
+          }
+        }
+      }
+    },
+    "Finding your location…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Определяем геопозицию…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Визначаємо геолокацію…"
+          }
+        }
+      }
+    },
+    "Flat" : {
+      "comment" : "Slope category of a route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ровный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рівний"
+          }
+        }
+      }
+    },
+    "Follow my position" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следовать за мной"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стежити за мною"
+          }
+        }
+      }
+    },
+    "Follow the route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следуйте по маршруту"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рухайтеся маршрутом"
+          }
+        }
+      }
+    },
+    "Following the sun along your trip…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следим за солнцем на вашем пути…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стежимо за сонцем на вашому шляху…"
+          }
+        }
+      }
+    },
+    "For the moment you leave, Shadewalk works out where the sun will be and lets buildings and trees cast their shadows across the streets. Then it finds the shadiest way through." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk рассчитывает, где будет солнце в момент вашего выхода, и «отбрасывает» тени зданий и деревьев на улицы. Затем находит самый тенистый путь."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk обчислює, де буде сонце в момент вашого виходу, і «відкидає» тіні будівель і дерев на вулиці. Потім знаходить найтінистіший шлях."
+          }
+        }
+      }
+    },
+    "For your departure time and place, Shadewalk works out the sun’s direction and height in the sky, accurate to a fraction of a degree." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для времени и места вашего выхода Shadewalk рассчитывает направление на солнце и его высоту над горизонтом с точностью до долей градуса."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для часу й місця вашого виходу Shadewalk обчислює напрямок на сонце та його висоту над горизонтом із точністю до часток градуса."
+          }
+        }
+      }
+    },
+    "From" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откуда"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звідки"
+          }
+        }
+      }
+    },
+    "From %@ to %@. Sun on the left side %@ of the time, on the right side %@, ahead or behind %@, below the horizon %@." : {
+      "comment" : "VoiceOver summary of the seat-side timeline. Times, then four percentages.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "С %1$@ до %2$@. Солнце слева %3$@ времени, справа %4$@, спереди или сзади %5$@, за горизонтом %6$@."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "З %1$@ до %2$@. Сонце ліворуч %3$@ часу, праворуч %4$@, спереду чи позаду %5$@, за обрієм %6$@."
+          }
+        }
+      }
+    },
+    "From: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откуда: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звідки: %@"
+          }
+        }
+      }
+    },
+    "From: choose a starting point" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откуда: выберите начальную точку"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звідки: виберіть початкову точку"
+          }
+        }
+      }
+    },
+    "From: finding your location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откуда: определяем геопозицию"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звідки: визначаємо геолокацію"
+          }
+        }
+      }
+    },
+    "Gentle" : {
+      "comment" : "Slope category of a route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пологий"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пологий"
+          }
+        }
+      }
+    },
+    "Get off" : {
+      "comment" : "Map label: where the passenger leaves the bus, tram or train.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выход"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вихід"
+          }
+        }
+      }
+    },
+    "Get on" : {
+      "comment" : "Map label: where the passenger boards the bus, tram or train.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посадка"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посадка"
+          }
+        }
+      }
+    },
+    "Good to know" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полезно знать"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Варто знати"
+          }
+        }
+      }
+    },
+    "Head out" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните движение"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почніть рух"
+          }
+        }
+      }
+    },
+    "Head out on %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните движение: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почніть рух: %@"
+          }
+        }
+      }
+    },
+    "Help" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Довідка"
+          }
+        }
+      }
+    },
+    "High" : {
+      "comment" : "UV index band (6–7).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Высокий"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Високий"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "comment" : "Saved place kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дом"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дім"
+          }
+        }
+      }
+    },
+    "Home & Work" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дом и работа"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дім і робота"
+          }
+        }
+      }
+    },
+    "How it works" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Как это работает"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Як це працює"
+          }
+        }
+      }
+    },
+    "How shade is calculated" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Как рассчитывается тень"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Як обчислюється тінь"
+          }
+        }
+      }
+    },
+    "Imperial" : {
+      "comment" : "Distance units: feet and miles.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имперские"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Імперські"
+          }
+        }
+      }
+    },
+    "In the shade" : {
+      "comment" : "Follow mode: the walker is in the shade.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У тіні"
+          }
+        }
+      }
+    },
+    "It’s overcast (%@ cloud cover), so neither side gets direct sun." : {
+      "comment" : "Seat-side reason. The value is the cloud cover, e.g. “90%”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пасмурно (облачность %@), так что прямого солнца не будет ни с одной стороны."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарно (хмарність %@), тож прямого сонця не буде з жодного боку."
+          }
+        }
+      }
+    },
+    "It’s overcast, so neither side gets direct sun." : {
+      "comment" : "Seat-side reason.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пасмурно, так что прямого солнца не будет ни с одной стороны."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хмарно, тож прямого сонця не буде з жодного боку."
+          }
+        }
+      }
+    },
+    "Keep walking" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить путь"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продовжити шлях"
+          }
+        }
+      }
+    },
+    "L" : {
+      "comment" : "Abbreviation of “left side” in the seat-side sun timeline.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Л"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Л"
+          }
+        }
+      }
+    },
+    "Leave" : {
+      "comment" : "Label above the departure time on the Walk screen.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выход"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вихід"
+          }
+        }
+      }
+    },
+    "Leave at %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выход в %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вихід о %@"
+          }
+        }
+      }
+    },
+    "Leave now" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выйти сейчас"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вийти зараз"
+          }
+        }
+      }
+    },
+    "Leave now · %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выход сейчас · %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вихід зараз · %@"
+          }
+        }
+      }
+    },
+    "Left" : {
+      "comment" : "Left side of the vehicle in the seat diagram.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слева"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ліворуч"
+          }
+        }
+      }
+    },
+    "Left side" : {
+      "comment" : "Recommended seat side.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Левая сторона"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лівий бік"
+          }
+        }
+      }
+    },
+    "Location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокація"
+          }
+        }
+      }
+    },
+    "Location access" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ к геопозиции"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ до геолокації"
+          }
+        }
+      }
+    },
+    "Location is off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция выключена"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокацію вимкнено"
+          }
+        }
+      }
+    },
+    "Location is off. Turn it on in Settings to follow your walk." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция выключена. Включите её в Настройках, чтобы следить за маршрутом."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокацію вимкнено. Увімкніть її в Параметрах, щоб стежити за маршрутом."
+          }
+        }
+      }
+    },
+    "Location is off. You can still search for a starting point, or turn it on in Settings." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция выключена. Начальную точку можно найти через поиск или включить геопозицию в Настройках."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокацію вимкнено. Початкову точку можна знайти через пошук або ввімкнути геолокацію в Параметрах."
+          }
+        }
+      }
+    },
+    "Location is off. You can still search for a starting point, or turn location on in Settings at any time." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция выключена. Начальную точку можно найти через поиск, а геопозицию — включить в Настройках в любой момент."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокацію вимкнено. Початкову точку можна знайти через пошук, а геолокацію — будь-коли ввімкнути в Параметрах."
+          }
+        }
+      }
+    },
+    "Location is on. Your walks will start right where you are." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геопозиция включена. Маршруты будут начинаться там, где вы находитесь."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геолокацію ввімкнено. Маршрути починатимуться там, де ви перебуваєте."
+          }
+        }
+      }
+    },
+    "Location is restricted on this iPhone, for example by Screen Time. You can still search for a starting point." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ к геопозиции на этом iPhone ограничен — например, функцией «Экранное время». Начальную точку можно найти через поиск."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ до геолокації на цьому iPhone обмежено — наприклад, функцією «Екранний час». Початкову точку можна знайти через пошук."
+          }
+        }
+      }
+    },
+    "Low" : {
+      "comment" : "UV index band (0–2).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Низкий"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Низький"
+          }
+        }
+      }
+    },
+    "Map & units" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта и единицы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта й одиниці"
+          }
+        }
+      }
+    },
+    "Map data is added by volunteers, so detail varies from street to street." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографические данные добавляют волонтёры, поэтому подробность разных улиц отличается."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографічні дані додають волонтери, тож детальність різних вулиць відрізняється."
+          }
+        }
+      }
+    },
+    "Map data is unavailable right now. Check your connection and try again." : {
+      "comment" : "Network error while loading map or weather data.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографические данные сейчас недоступны. Проверьте подключение и попробуйте ещё раз."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографічні дані зараз недоступні. Перевірте з’єднання та спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "Map data © OpenStreetMap contributors" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографические данные © участники OpenStreetMap"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографічні дані © учасники OpenStreetMap"
+          }
+        }
+      }
+    },
+    "Map data © OpenStreetMap contributors. Weather and elevation by Open-Meteo." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографические данные © участники OpenStreetMap. Погода и высоты — Open-Meteo."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Картографічні дані © учасники OpenStreetMap. Погода й висоти — Open-Meteo."
+          }
+        }
+      }
+    },
+    "Map layers" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слои карты"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шари карти"
+          }
+        }
+      }
+    },
+    "Map of the trip" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта поездки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карта поїздки"
+          }
+        }
+      }
+    },
+    "Maximum detour" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Максимальный обход"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Максимальний обхід"
+          }
+        }
+      }
+    },
+    "Metric" : {
+      "comment" : "Distance units: metres and kilometres.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Метрические"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Метричні"
+          }
+        }
+      }
+    },
+    "Missing building heights are estimated from the number of floors or the type of building." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неизвестная высота здания оценивается по числу этажей или типу здания."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невідому висоту будівлі оцінюють за кількістю поверхів або типом будівлі."
+          }
+        }
+      }
+    },
+    "Moderate" : {
+      "comment" : "Slope category of a route.\nUV index band (3–5).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Умеренный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помірний"
+          }
+        }
+      }
+    },
+    "Move the map to look around another area." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сдвиньте карту, чтобы осмотреть другой район."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посуньте карту, щоб оглянути інший район."
+          }
+        }
+      }
+    },
+    "My Location" : {
+      "comment" : "The user's current location.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моё местоположение"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Моє розташування"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назва"
+          }
+        }
+      }
+    },
+    "Never walk further for shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удлинять путь ради тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не подовжувати шлях заради тіні"
+          }
+        }
+      }
+    },
+    "New route found" : {
+      "comment" : "Follow mode: a new route replaced the old one.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найден новый маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знайдено новий маршрут"
+          }
+        }
+      }
+    },
+    "No account, no tracking" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без аккаунта и слежки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без акаунта й стеження"
+          }
+        }
+      }
+    },
+    "No cool spots nearby" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поблизости нет прохладных мест"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поблизу немає прохолодних місць"
+          }
+        }
+      }
+    },
+    "No detour" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без обхода"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без обходу"
+          }
+        }
+      }
+    },
+    "No direct sun" : {
+      "comment" : "Chip: the route is fully shaded.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без прямого солнца"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без прямого сонця"
+          }
+        }
+      }
+    },
+    "No direct sun on either side." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прямого солнца нет ни с одной стороны."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прямого сонця немає з жодного боку."
+          }
+        }
+      }
+    },
+    "No places found. Try a different search." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ничего не найдено. Попробуйте другой запрос."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нічого не знайдено. Спробуйте інший запит."
+          }
+        }
+      }
+    },
+    "No saved places yet" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пока нет сохранённых мест"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ще немає збережених місць"
+          }
+        }
+      }
+    },
+    "No walk in progress" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет активного маршрута"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає активного маршруту"
+          }
+        }
+      }
+    },
+    "No walkable streets found in this area." : {
+      "comment" : "Route planning error.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В этом районе не найдено пешеходных улиц."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У цьому районі не знайдено пішохідних вулиць."
+          }
+        }
+      }
+    },
+    "Normal" : {
+      "comment" : "Walking speed preset.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обычный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звичайний"
+          }
+        }
+      }
+    },
+    "Not much shade on this walk — remember to drink some water." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На этом маршруте было мало тени — не забудьте попить воды."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На цьому маршруті було мало тіні — не забудьте попити води."
+          }
+        }
+      }
+    },
+    "Not now" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не сейчас"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не зараз"
+          }
+        }
+      }
+    },
+    "Not set" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не задано"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не задано"
+          }
+        }
+      }
+    },
+    "Nothing matches these filters" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ничего не подходит под эти фильтры"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нічого не відповідає цим фільтрам"
+          }
+        }
+      }
+    },
+    "Now" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сейчас"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зараз"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "comment" : "Location access status.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выкл."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вимк."
+          }
+        }
+      }
+    },
+    "Open 24 hours" : {
+      "comment" : "Cool spot that never closes.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыто круглосуточно"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відчинено цілодобово"
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Настройки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкрити Параметри"
+          }
+        }
+      }
+    },
+    "Opens place search" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открывает поиск мест"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкриває пошук місць"
+          }
+        }
+      }
+    },
+    "Page %lld of %lld" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Страница %1$lld из %2$lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сторінка %1$lld з %2$lld"
+          }
+        }
+      }
+    },
+    "Park" : {
+      "comment" : "Cool spot kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Парк"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Парк"
+          }
+        }
+      }
+    },
+    "Partly cloudy" : {
+      "comment" : "Sky in the weather pill: sun and clouds.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переменная облачность"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мінлива хмарність"
+          }
+        }
+      }
+    },
+    "Pick a route on the Walk tab and tap Start." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите маршрут на вкладке «Пешком» и нажмите «Старт»."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть маршрут на вкладці «Пішки» й натисніть «Старт»."
+          }
+        }
+      }
+    },
+    "Place" : {
+      "comment" : "Kind of a place found by search.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Место"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місце"
+          }
+        }
+      }
+    },
+    "Place search and transit paths use Apple Maps." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск мест и пути транспорта работают на Картах Apple."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук місць і шляхи транспорту працюють на Картах Apple."
+          }
+        }
+      }
+    },
+    "Places you walk to often" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Места, куда вы часто ходите"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місця, куди ви часто ходите"
+          }
+        }
+      }
+    },
+    "Plan a shady walk" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Построить тенистый маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прокласти тінистий маршрут"
+          }
+        }
+      }
+    },
+    "Plans a shady walk there" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Строит туда тенистый маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прокладає туди тінистий маршрут"
+          }
+        }
+      }
+    },
+    "Privacy" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Конфиденциальность"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Конфіденційність"
+          }
+        }
+      }
+    },
+    "R" : {
+      "comment" : "Abbreviation of “right side” in the seat-side sun timeline.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "П"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "П"
+          }
+        }
+      }
+    },
+    "Reading the shadows…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изучаем тени…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вивчаємо тіні…"
+          }
+        }
+      }
+    },
+    "Recent" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недавние"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нещодавні"
+          }
+        }
+      }
+    },
+    "Recent searches" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Недавние запросы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нещодавні запити"
+          }
+        }
+      }
+    },
+    "Relaxed" : {
+      "comment" : "Walking speed preset (slow).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неспешный"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неквапливий"
+          }
+        }
+      }
+    },
+    "Remaining" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Осталось"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Залишилося"
+          }
+        }
+      }
+    },
+    "Remove" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вилучити"
+          }
+        }
+      }
+    },
+    "Remove destination from saved places" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить пункт назначения из сохранённых"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вилучити пункт призначення зі збережених"
+          }
+        }
+      }
+    },
+    "Remove from recents" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить из недавних"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вилучити з нещодавніх"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переименовать"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейменувати"
+          }
+        }
+      }
+    },
+    "Rename place" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переименовать место"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейменувати місце"
+          }
+        }
+      }
+    },
+    "Replay introduction" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать вступление снова"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показати вступ знову"
+          }
+        }
+      }
+    },
+    "Restore default settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восстановить настройки по умолчанию"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відновити стандартні налаштування"
+          }
+        }
+      }
+    },
+    "Restore default settings?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восстановить настройки по умолчанию?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відновити стандартні налаштування?"
+          }
+        }
+      }
+    },
+    "Restore defaults" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восстановить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відновити"
+          }
+        }
+      }
+    },
+    "Restricted" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ограничено"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обмежено"
+          }
+        }
+      }
+    },
+    "Right" : {
+      "comment" : "Right side of the vehicle in the seat diagram.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справа"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Праворуч"
+          }
+        }
+      }
+    },
+    "Right side" : {
+      "comment" : "Recommended seat side.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правая сторона"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правий бік"
+          }
+        }
+      }
+    },
+    "Route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут"
+          }
+        }
+      }
+    },
+    "Route details" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Детали маршрута"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деталі маршруту"
+          }
+        }
+      }
+    },
+    "Routes start where you are, and follow mode guides you along the way." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршруты начинаются там, где вы находитесь, а навигация ведёт вас по пути."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрути починаються там, де ви перебуваєте, а навігація веде вас дорогою."
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зберегти"
+          }
+        }
+      }
+    },
+    "Save Home, Work and favorite spots, then tap one to plan a shady walk there." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните дом, работу и любимые места — и стройте туда тенистый маршрут одним касанием."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Збережіть дім, роботу й улюблені місця — і прокладайте туди тінистий маршрут одним дотиком."
+          }
+        }
+      }
+    },
+    "Save Home, Work or favorite spots to plan shady walks in one tap." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните дом, работу или любимые места, чтобы строить тенистые маршруты в одно касание."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Збережіть дім, роботу або улюблені місця, щоб прокладати тінисті маршрути одним дотиком."
+          }
+        }
+      }
+    },
+    "Save destination" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зберегти пункт призначення"
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённое"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Збережене"
+          }
+        }
+      }
+    },
+    "Search failed. Tap to try again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось выполнить поиск. Коснитесь, чтобы повторить."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не вдалося виконати пошук. Торкніться, щоб повторити."
+          }
+        }
+      }
+    },
+    "Search for a destination" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найти пункт назначения"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знайти пункт призначення"
+          }
+        }
+      }
+    },
+    "Search for a destination to plan a walk in the shade." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найдите пункт назначения, чтобы проложить маршрут в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знайдіть пункт призначення, щоб прокласти маршрут у тіні."
+          }
+        }
+      }
+    },
+    "Search for a place or address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск места или адреса"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук місця або адреси"
+          }
+        }
+      }
+    },
+    "Search for a starting point" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск начальной точки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук початкової точки"
+          }
+        }
+      }
+    },
+    "Search for a stop, place or address" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остановка, место или адрес"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зупинка, місце або адреса"
+          }
+        }
+      }
+    },
+    "Search places" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найти места"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знайти місця"
+          }
+        }
+      }
+    },
+    "Searching…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошук…"
+          }
+        }
+      }
+    },
+    "Seat diagram" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Схема мест"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Схема місць"
+          }
+        }
+      }
+    },
+    "Seat side" : {
+      "comment" : "Tab title: which side of a bus, tram or train to sit on.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Где сесть"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Де сісти"
+          }
+        }
+      }
+    },
+    "Set Home" : {
+      "comment" : "Row that sets the Home address.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Указать дом"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вказати дім"
+          }
+        }
+      }
+    },
+    "Set Work" : {
+      "comment" : "Row that sets the Work address.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Указать работу"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вказати роботу"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування"
+          }
+        }
+      }
+    },
+    "Shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тень"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінь"
+          }
+        }
+      }
+    },
+    "Shade %@" : {
+      "comment" : "Chip: share of the route in shade, e.g. “Shade 62%”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тень %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінь %@"
+          }
+        }
+      }
+    },
+    "Shade along the route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тень на маршруте"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінь на маршруті"
+          }
+        }
+      }
+    },
+    "Shade along the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тень по пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінь на шляху"
+          }
+        }
+      }
+    },
+    "Shade for the rest of the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тень до конца пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінь до кінця шляху"
+          }
+        }
+      }
+    },
+    "Shade overlay" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слой теней"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шар тіней"
+          }
+        }
+      }
+    },
+    "Shade overlay and cool spots on" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включены слой теней и прохладные места"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увімкнено шар тіней і прохолодні місця"
+          }
+        }
+      }
+    },
+    "Shade overlay on" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слой теней включён"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шар тіней увімкнено"
+          }
+        }
+      }
+    },
+    "Shade preference" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приоритет тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пріоритет тіні"
+          }
+        }
+      }
+    },
+    "Shade preference, walking speed, stairs, units and the shade overlay go back to their defaults. Your saved places stay." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приоритет тени, темп ходьбы, лестницы, единицы и слой теней вернутся к значениям по умолчанию. Сохранённые места останутся."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пріоритет тіні, темп ходьби, сходи, одиниці та шар тіней повернуться до стандартних значень. Збережені місця залишаться."
+          }
+        }
+      }
+    },
+    "Shade unavailable. Tap to try again." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тени недоступны. Коснитесь, чтобы повторить."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тіні недоступні. Торкніться, щоб повторити."
+          }
+        }
+      }
+    },
+    "Shadewalk builds a picture of the shade for the moment you set off, then looks for the route that keeps you in it." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk строит карту тени на момент вашего выхода, а затем ищет маршрут, который проходит по ней."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk будує карту тіні на момент вашого виходу, а потім шукає маршрут, що пролягає нею."
+          }
+        }
+      }
+    },
+    "Shadewalk follows the road and the sun, minute by minute." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk отслеживает дорогу и солнце минута за минутой."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk відстежує дорогу й сонце хвилина за хвилиною."
+          }
+        }
+      }
+    },
+    "Shadewalk has no accounts and no tracking. Saved places and settings stay on this iPhone. To plan a walk, only the area around it is sent to OpenStreetMap’s Overpass service and to Open-Meteo." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В Shadewalk нет аккаунтов и слежки. Сохранённые места и настройки остаются на этом iPhone. Для построения маршрута в сервис Overpass (OpenStreetMap) и в Open-Meteo передаётся только район вокруг него."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У Shadewalk немає акаунтів і стеження. Збережені місця й налаштування залишаються на цьому iPhone. Для прокладання маршруту до сервісу Overpass (OpenStreetMap) і до Open-Meteo надсилається лише район навколо нього."
+          }
+        }
+      }
+    },
+    "Shadewalk plans walking routes that keep you out of the hot sun, without sending you on long detours." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk прокладывает пешие маршруты подальше от палящего солнца — и без долгих обходов."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shadewalk прокладає пішохідні маршрути подалі від пекучого сонця — і без довгих обходів."
+          }
+        }
+      }
+    },
+    "Shadier routes can be longer. Shadewalk only suggests one if it’s at most this much longer than the fastest route. Walking speed sets your times; avoiding stairs keeps routes step-free where possible." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тенистые маршруты бывают длиннее. Shadewalk предложит такой, только если он длиннее самого быстрого не больше чем на выбранную долю. Темп ходьбы определяет время в пути, а «Избегать лестниц» по возможности ведёт без ступенек."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінисті маршрути бувають довшими. Shadewalk запропонує такий, лише якщо він довший за найшвидший не більше ніж на вибрану частку. Темп ходьби визначає час у дорозі, а «Уникати сходів» за можливості веде без сходинок."
+          }
+        }
+      }
+    },
+    "Shadiest" : {
+      "comment" : "Route profile: the route with the most shade.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Самый тенистый"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найтінистіший"
+          }
+        }
+      }
+    },
+    "Shady route here" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тенистый маршрут сюда"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тінистий маршрут сюди"
+          }
+        }
+      }
+    },
+    "Shady stretches" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Участки в тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ділянки в тіні"
+          }
+        }
+      }
+    },
+    "Share your location to start shady walks from here, or choose a starting point above." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделитесь геопозицией, чтобы начинать тенистые маршруты отсюда, или выберите начальную точку выше."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поділіться геолокацією, щоб починати тінисті маршрути звідси, або виберіть початкову точку вище."
+          }
+        }
+      }
+    },
+    "Shelter" : {
+      "comment" : "Cool spot kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навес"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навіс"
+          }
+        }
+      }
+    },
+    "Show my location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать моё местоположение"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показати моє розташування"
+          }
+        }
+      }
+    },
+    "Show shade overlay by default" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать слой теней по умолчанию"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Типово показувати шар тіней"
+          }
+        }
+      }
+    },
+    "Shows a shady route option" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывает вариант тенистого маршрута"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показує варіант тінистого маршруту"
+          }
+        }
+      }
+    },
+    "Shows this route on the map" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывает маршрут на карте"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показує маршрут на карті"
+          }
+        }
+      }
+    },
+    "Single trees, rows of trees and woods add their canopy, shifted away from the sun just like a real shadow." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отдельные деревья, аллеи и рощи добавляют свои кроны — со смещением от солнца, как у настоящей тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Окремі дерева, алеї та гаї додають свої крони — зі зміщенням від сонця, як у справжньої тіні."
+          }
+        }
+      }
+    },
+    "Sit on the left" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Садитесь слева"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сідайте ліворуч"
+          }
+        }
+      }
+    },
+    "Sit on the right" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Садитесь справа"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сідайте праворуч"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустити"
+          }
+        }
+      }
+    },
+    "Slope" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уклон"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ухил"
+          }
+        }
+      }
+    },
+    "Slope profile" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Профиль уклона"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Профіль ухилу"
+          }
+        }
+      }
+    },
+    "Something went wrong. Please try again." : {
+      "comment" : "Generic error message.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что-то пошло не так. Попробуйте ещё раз."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щось пішло не так. Спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "Stairs" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лестницы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сходи"
+          }
+        }
+      }
+    },
+    "Start" : {
+      "comment" : "Map label for the start of the route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Старт"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Старт"
+          }
+        }
+      }
+    },
+    "Start from" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откуда начать"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Звідки почати"
+          }
+        }
+      }
+    },
+    "Start from where you are" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните там, где вы сейчас"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почніть там, де ви зараз"
+          }
+        }
+      }
+    },
+    "Start walking" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Почати"
+          }
+        }
+      }
+    },
+    "Starts step-by-step guidance along the selected route" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запускает пошаговую навигацию по выбранному маршруту"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запускає покрокову навігацію вибраним маршрутом"
+          }
+        }
+      }
+    },
+    "Steep" : {
+      "comment" : "Slope category of a route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крутой"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крутий"
+          }
+        }
+      }
+    },
+    "Steepest" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Макс. уклон"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Макс. ухил"
+          }
+        }
+      }
+    },
+    "Steepness" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крутизна"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крутизна"
+          }
+        }
+      }
+    },
+    "Steps" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шаги"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кроки"
+          }
+        }
+      }
+    },
+    "Stretch" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Участок"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ділянка"
+          }
+        }
+      }
+    },
+    "Sun" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце"
+          }
+        }
+      }
+    },
+    "Sun %@" : {
+      "comment" : "Chip: time spent in direct sun, e.g. “Sun 6 min”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце %@"
+          }
+        }
+      }
+    },
+    "Sun ahead or behind" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце спереди или сзади"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце спереду чи позаду"
+          }
+        }
+      }
+    },
+    "Sun along the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце в пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце в дорозі"
+          }
+        }
+      }
+    },
+    "Sun down" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце за горизонтом"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце за обрієм"
+          }
+        }
+      }
+    },
+    "Sun during the trip" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце во время поездки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце під час поїздки"
+          }
+        }
+      }
+    },
+    "Sun for %@" : {
+      "comment" : "Follow mode: sunny stretch ahead, e.g. “Sun for 120 m”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ещё %@ на солнце"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ще %@ на сонці"
+          }
+        }
+      }
+    },
+    "Sun in %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце через %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце через %@"
+          }
+        }
+      }
+    },
+    "Sun on that side" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце с этой стороны"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце з цього боку"
+          }
+        }
+      }
+    },
+    "Sun on the left" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце слева"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце ліворуч"
+          }
+        }
+      }
+    },
+    "Sun on the right" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце справа"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце праворуч"
+          }
+        }
+      }
+    },
+    "Sun rises on the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восход в пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Схід сонця в дорозі"
+          }
+        }
+      }
+    },
+    "Sun sets on the way" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закат в пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Захід сонця в дорозі"
+          }
+        }
+      }
+    },
+    "Sunny stretches" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Участки на солнце"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ділянки на сонці"
+          }
+        }
+      }
+    },
+    "Sunrise %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восход в %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Схід сонця о %@"
+          }
+        }
+      }
+    },
+    "Sunset %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закат в %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Захід сонця о %@"
+          }
+        }
+      }
+    },
+    "Swap start and destination" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поменять старт и пункт назначения местами"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поміняти старт і пункт призначення місцями"
+          }
+        }
+      }
+    },
+    "Swap where you get on and off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поменять посадку и выход местами"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поміняти посадку й вихід місцями"
+          }
+        }
+      }
+    },
+    "Take the stairs" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идите по лестнице"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ідіть сходами"
+          }
+        }
+      }
+    },
+    "Take the stairs to %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идите по лестнице: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ідіть сходами: %@"
+          }
+        }
+      }
+    },
+    "Take the underpass to %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пройдите подземным переходом: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пройдіть підземним переходом: %@"
+          }
+        }
+      }
+    },
+    "Tap a place to plan a shady walk there. Touch and hold for more options." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь места, чтобы построить туда тенистый маршрут. Нажмите и удерживайте, чтобы увидеть другие действия."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Торкніться місця, щоб прокласти туди тінистий маршрут. Натисніть і утримуйте, щоб побачити інші дії."
+          }
+        }
+      }
+    },
+    "Temporary shade, such as awnings, umbrellas or parked trucks, isn’t known." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Временная тень — от маркиз, зонтов или припаркованных грузовиков — не учитывается."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тимчасова тінь — від маркіз, парасоль чи припаркованих вантажівок — не враховується."
+          }
+        }
+      }
+    },
+    "That’s %@ away — walking routes are limited to %@." : {
+      "comment" : "Route planning error. First value: straight-line distance; second: the limit.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это слишком далеко (%1$@): пешие маршруты — не длиннее %2$@."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Це задалеко (%1$@): пішохідні маршрути — не довші за %2$@."
+          }
+        }
+      }
+    },
+    "The destination is too far from any footpath." : {
+      "comment" : "Route planning error.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт назначения слишком далеко от пешеходных дорожек."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт призначення задалеко від пішохідних доріжок."
+          }
+        }
+      }
+    },
+    "The map data server returned an error (%lld)." : {
+      "comment" : "Server error. The value is the HTTP status code.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервер картографических данных вернул ошибку (%lld)."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервер картографічних даних повернув помилку (%lld)."
+          }
+        }
+      }
+    },
+    "The request took too long. Please try again." : {
+      "comment" : "Error when a network request timed out.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запрос выполнялся слишком долго. Попробуйте ещё раз."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запит виконувався надто довго. Спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "The start point is too far from any footpath." : {
+      "comment" : "Route planning error.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начальная точка слишком далеко от пешеходных дорожек."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Початкова точка задалеко від пішохідних доріжок."
+          }
+        }
+      }
+    },
+    "The sun hits the left side for %@ of the trip." : {
+      "comment" : "Seat-side reason. The value is a percentage, e.g. “78%”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце светит на левую сторону %@ времени поездки."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце світить на лівий бік %@ часу поїздки."
+          }
+        }
+      }
+    },
+    "The sun hits the right side for %@ of the trip." : {
+      "comment" : "Seat-side reason. The value is a percentage, e.g. “78%”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце светит на правую сторону %@ времени поездки."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце світить на правий бік %@ часу поїздки."
+          }
+        }
+      }
+    },
+    "The sun is down for the whole trip." : {
+      "comment" : "Seat-side reason.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всю поездку солнце будет за горизонтом."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Усю поїздку сонце буде за обрієм."
+          }
+        }
+      }
+    },
+    "The sun is down — all shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце село — везде тень"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце сіло — всюди тінь"
+          }
+        }
+      }
+    },
+    "The sun is down — every route is in the shade." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце село — все маршруты в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце сіло — усі маршрути в тіні."
+          }
+        }
+      }
+    },
+    "The sun is down — no shadows to show" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце село — теней нет"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце сіло — тіней немає"
+          }
+        }
+      }
+    },
+    "The sun shines on both sides." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце светит с обеих сторон."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце світить з обох боків."
+          }
+        }
+      }
+    },
+    "The sun shines on the left side." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце светит слева."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце світить ліворуч."
+          }
+        }
+      }
+    },
+    "The sun shines on the right side." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце светит справа."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце світить праворуч."
+          }
+        }
+      }
+    },
+    "The sun stays ahead of or behind you, so neither side gets much of it." : {
+      "comment" : "Seat-side reason when the sun is in front of or behind the vehicle.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Солнце остаётся впереди или позади, поэтому ни одной стороне его почти не достаётся."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сонце залишається попереду або позаду, тож жодному боку його майже не дістається."
+          }
+        }
+      }
+    },
+    "The sun’s position for the minute you set off" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Положение солнца в минуту вашего выхода"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Положення сонця на хвилину вашого виходу"
+          }
+        }
+      }
+    },
+    "To" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куда"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куди"
+          }
+        }
+      }
+    },
+    "To go" : {
+      "comment" : "Caption under the remaining distance in follow mode.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "До цели"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "До мети"
+          }
+        }
+      }
+    },
+    "To: %@" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куда: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куди: %@"
+          }
+        }
+      }
+    },
+    "Train" : {
+      "comment" : "Vehicle kind for the seat-side advisor.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поезд"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поїзд"
+          }
+        }
+      }
+    },
+    "Tram" : {
+      "comment" : "Vehicle kind for the seat-side advisor.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Трамвай"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Трамвай"
+          }
+        }
+      }
+    },
+    "Tree sizes are estimates, and trees missing from the map aren’t counted." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размеры деревьев приблизительные, а деревья, которых нет на карте, не учитываются."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розміри дерев приблизні, а дерева, яких немає на карті, не враховуються."
+          }
+        }
+      }
+    },
+    "Trees and parks" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деревья и парки"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дерева й парки"
+          }
+        }
+      }
+    },
+    "Trees, parks and covered walkways" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деревья, парки и крытые переходы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дерева, парки та криті переходи"
+          }
+        }
+      }
+    },
+    "Trip" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поездка"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поїздка"
+          }
+        }
+      }
+    },
+    "Try again" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторить"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повторити"
+          }
+        }
+      }
+    },
+    "Turn around" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Развернитесь"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розверніться"
+          }
+        }
+      }
+    },
+    "Turn around onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Развернитесь: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розверніться: %@"
+          }
+        }
+      }
+    },
+    "Turn left" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверните налево"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверніть ліворуч"
+          }
+        }
+      }
+    },
+    "Turn left onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверните налево: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверніть ліворуч: %@"
+          }
+        }
+      }
+    },
+    "Turn on location access in Settings to start walks from where you are, or choose a starting point." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите доступ к геопозиции в Настройках, чтобы начинать маршруты там, где вы находитесь, или выберите начальную точку."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увімкніть доступ до геолокації в Параметрах, щоб починати маршрути там, де ви перебуваєте, або виберіть початкову точку."
+          }
+        }
+      }
+    },
+    "Turn on more kinds of cool spots above." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включите больше типов мест выше."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Увімкніть більше типів місць вище."
+          }
+        }
+      }
+    },
+    "Turn right" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверните направо"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверніть праворуч"
+          }
+        }
+      }
+    },
+    "Turn right onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверните направо: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверніть праворуч: %@"
+          }
+        }
+      }
+    },
+    "Turn sharp left" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резко поверните налево"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Різко поверніть ліворуч"
+          }
+        }
+      }
+    },
+    "Turn sharp left onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резко поверните налево: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Різко поверніть ліворуч: %@"
+          }
+        }
+      }
+    },
+    "Turn sharp right" : {
+      "comment" : "Walking maneuver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резко поверните направо"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Різко поверніть праворуч"
+          }
+        }
+      }
+    },
+    "Turn sharp right onto %@" : {
+      "comment" : "Walking maneuver with a street name.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резко поверните направо: %@"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Різко поверніть праворуч: %@"
+          }
+        }
+      }
+    },
+    "UV %lld" : {
+      "comment" : "UV index, e.g. “UV 7”.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "УФ %lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "УФ %lld"
+          }
+        }
+      }
+    },
+    "Underpasses" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подземные переходы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підземні переходи"
+          }
+        }
+      }
+    },
+    "Units" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Единицы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одиниці"
+          }
+        }
+      }
+    },
+    "Up to %@ longer" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "До %@ длиннее"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "До %@ довше"
+          }
+        }
+      }
+    },
+    "Updating routes…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновляем маршруты…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлюємо маршрути…"
+          }
+        }
+      }
+    },
+    "Use my location" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать мою геопозицию"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Використати мою геолокацію"
+          }
+        }
+      }
+    },
+    "Vehicle" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транспорт"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Транспорт"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версія"
+          }
+        }
+      }
+    },
+    "Very high" : {
+      "comment" : "UV index band (8–10).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очень высокий"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дуже високий"
+          }
+        }
+      }
+    },
+    "Waiting for your location…" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ждём вашу геопозицию…"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чекаємо на вашу геолокацію…"
+          }
+        }
+      }
+    },
+    "Walk" : {
+      "comment" : "Tab title (map and walking routes).",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пешком"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пішки"
+          }
+        }
+      }
+    },
+    "Walk in the shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гуляйте в тени"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гуляйте в тіні"
+          }
+        }
+      }
+    },
+    "Walking speed" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Темп ходьбы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Темп ходьби"
+          }
+        }
+      }
+    },
+    "Walking time" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Время в пути"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Час у дорозі"
+          }
+        }
+      }
+    },
+    "Weather & elevation: Open-Meteo" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Погода и высоты: Open-Meteo"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Погода й висоти: Open-Meteo"
+          }
+        }
+      }
+    },
+    "We’ll look for a new shady way from here." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поищем новый тенистый путь отсюда."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошукаємо новий тінистий шлях звідси."
+          }
+        }
+      }
+    },
+    "Where do you get off?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Где вы выходите?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Де ви виходите?"
+          }
+        }
+      }
+    },
+    "Where do you get on?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Где вы садитесь?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Де ви сідаєте?"
+          }
+        }
+      }
+    },
+    "Where the sun is" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Где солнце"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Де сонце"
+          }
+        }
+      }
+    },
+    "Where to?" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куда идём?"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Куди йдемо?"
+          }
+        }
+      }
+    },
+    "While using the app" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При использовании"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Під час використання"
+          }
+        }
+      }
+    },
+    "Work" : {
+      "comment" : "Saved place kind.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Работа"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Робота"
+          }
+        }
+      }
+    },
+    "You" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви"
+          }
+        }
+      }
+    },
+    "You appear to be offline. Check your connection and try again." : {
+      "comment" : "Error when the device has no internet connection.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Похоже, нет подключения к интернету. Проверьте соединение и попробуйте ещё раз."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Схоже, немає з’єднання з інтернетом. Перевірте підключення та спробуйте ще раз."
+          }
+        }
+      }
+    },
+    "You get the side of the vehicle that stays in the shade." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы узнаёте, какая сторона транспорта останется в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви дізнаєтеся, який бік транспорту залишиться в тіні."
+          }
+        }
+      }
+    },
+    "You walked %lld min in the shade." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You walked %lld min in the shade."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You walked %lld min in the shade."
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы провели в тени %lld минуту."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы провели в тени %lld минуты."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы провели в тени %lld минут."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы провели в тени %lld минуты."
+                }
+              }
+            }
+          }
+        },
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ви провели в тіні %lld хвилину."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ви провели в тіні %lld хвилини."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ви провели в тіні %lld хвилин."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ви провели в тіні %lld хвилини."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Your places, one tap away" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваши места — в одно касание"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваші місця — одним дотиком"
+          }
+        }
+      }
+    },
+    "Your seat is on the left, in the shade." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше место слева, в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше місце ліворуч, у тіні."
+          }
+        }
+      }
+    },
+    "Your seat is on the right, in the shade." : {
+      "comment" : "Seat diagram, VoiceOver.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше место справа, в тени."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше місце праворуч, у тіні."
+          }
+        }
+      }
+    },
+    "You’ve arrived" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы на месте"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви на місці"
+          }
+        }
+      }
+    },
+    "You’ve left the route" : {
+      "comment" : "Follow mode: the walker is off the route.",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы сошли с маршрута"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви зійшли з маршруту"
+          }
+        }
+      }
+    },
+    "Zoom in on the map" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приблизьте карту"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наблизьте карту"
+          }
+        }
+      }
+    },
+    "Zoom in to see cool spots" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приблизьте карту, чтобы увидеть прохладные места"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наблизьте карту, щоб побачити прохолодні місця"
+          }
+        }
+      }
+    },
+    "Zoom in to see the shade" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приблизьте карту, чтобы увидеть тень"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наблизьте карту, щоб побачити тінь"
+          }
+        }
+      }
+    },
+    "Zoom in to see the shade and cool spots" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приблизьте карту, чтобы увидеть тень и прохладные места"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наблизьте карту, щоб побачити тінь і прохолодні місця"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
